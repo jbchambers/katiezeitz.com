@@ -1,0 +1,74 @@
+// Global CSS goes here
+/* Theme Specific Styles  */
+
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: rgba(0,0,0,.01)0 0 1px;
+}
+
+a[href^="tel"]{
+  color:inherit;
+  text-decoration:none;
+}
+
+::-webkit-input-placeholder {
+  color: #999999;
+  font-size: 14px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #999999;
+  font-size: 14px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #999999;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  color: #999999;
+  font-size: 14px;
+}
+
+/* Nav Styles
+-------------------------------------------------------------- */
+
+#menu-main-menu {
+  text-align: right;
+}
+
+#menu-main-menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 20px 15px;
+}
+
+/* Default Page Styles
+-------------------------------------------------------------- */
+
+#page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px;
+}
+
+#page-container .main-content {
+  width: 70%;
+  float: right;
+}
+
+#page-container .sidebar {
+  width: 30%;
+  float: left;
+}
+
+/* Full-Width Page Styles
+-------------------------------------------------------------- */
+
+#page-container .main-content.full-width {
+  width: 100%;
+}
